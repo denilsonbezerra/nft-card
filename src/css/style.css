@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: #0D192B;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    max-width: 100%;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.card{
+    max-height: 250vh;
+    background-color: #14253D;
+    margin: 5vh auto;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+.card .nft-image img{
+    max-width: 300px;
+    border-radius: 15px;
+}
+
+.card .description{
+    max-width: fit-content;
+}
+
+.card .description h1{
+    color: #FFFFFF;
+    font-size: 23px;
+    padding: 20px 0;
+}
+
+.card .description p{
+    font-weight: 300;
+    font-size: 18px;
+    color: #8BACDA; 
+    margin-bottom: 20px;
+}
+
+.card .nft-info{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #2F415B;
+}
+
+.card .nft-info .value, .card .nft-info .time-left, .card .user-info{
+    display: flex;
+    align-items: center;
+}
+
+.card .nft-info .value{
+    color: #00FFF7;
+}
+
+.card .nft-info .value span{
+    font-weight: 800;
+    margin-left: 5px;
+}
+
+.card .nft-info .time-left{
+    color: #8BACDA;
+}
+
+.card .nft-info .time-left span{
+    font-weight: 800;
+    margin-left: 5px;
+}
+
+.card .user-info{
+    padding-top: 20px;
+}
+
+.card .user-info img{
+    max-width: 35px;
+    border: 1px solid #FFFFFF;
+    border-radius: 100px;
+}
+
+.card .user-info span{
+    font-weight: 400px;
+    color: #8BACDA;
+    margin-left: 15px;
+}
+
+.card .user-info span a{
+    color: #FFFFFF;
+}
+
+.attribution p{
+    font-size: 11px; text-align: center;
+}
+
+.attribution a{
+    color: #3E52A3;
+}
