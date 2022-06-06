@@ -3,23 +3,29 @@
 body{
     font-family: 'Outfit', sans-serif;
     background-color: #0D192B;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-footer{
-    position: static;
-    bottom: 0;
-    margin-bottom: 15px;
+::-webkit-scrollbar{
+    width: 10px;
 }
 
-footer p{
-    color: #8BACDA;
-    font-size: 11px; text-align: center;
+::-webkit-scrollbar-track{
+    background: #0D192B;
 }
 
-footer a{
-    color: #3E52A3;
+::-webkit-scrollbar-thumb{
+    background: #111f37;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background: #14253D; 
+}
+
+::-webkit-scrollbar-thumb:active{
+    background: #13223a;
 }
