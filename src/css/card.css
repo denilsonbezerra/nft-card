@@ -1,7 +1,7 @@
 .card{
     max-height: 250vh;
     background-color: #14253D;
-    margin: 10vh auto;
+    margin: 10vh 0;
     padding: 20px;
     border-radius: 15px;
     box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
@@ -41,20 +41,14 @@
     align-items: center;
 }
 
-.card .nft-info .value{
+.card .nft-info .value span{  
     color: #00FFF7;
-}
-
-.card .nft-info .value span{
     font-weight: 800;
     margin-left: 5px;
 }
 
-.card .nft-info .time-left{
-    color: #8BACDA;
-}
-
 .card .nft-info .time-left span{
+    color: #8BACDA;
     font-weight: 800;
     margin-left: 5px;
 }
@@ -77,4 +71,19 @@
 
 .card .author-info span a{
     color: #FFFFFF;
+}
+
+.attribution{
+    position: static;
+    bottom: 0;
+    padding: 5vh 0;
+}
+
+.attribution p{
+    color: #8BACDA;
+    font-size: 11px; text-align: center;
+}
+
+.attribution a{
+    color: #3E52A3;
 }
