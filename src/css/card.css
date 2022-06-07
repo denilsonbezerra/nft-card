@@ -7,9 +7,33 @@
     box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
 }
 
-.card .nft-image img{
+.card .nft-image, .card .nft-image .view{
+    min-height: 280px;
+    min-width: 280px;
+    height: 23vw;
+    width: 23vw;
+    max-height: 300px;
     max-width: 300px;
     border-radius: 15px;
+}
+
+.card .nft-image{
+    background-image: url(../img/image-nft.jpg);
+    background-size: cover;
+}
+
+.card .nft-image .view{
+    background-image: url(../img/icon-view.svg);
+    background-color: rgba(0, 255, 247,0.4);
+    background-repeat: no-repeat;
+    background-position: center;
+    opacity: 0;
+    transition: ease-in 0.25s;
+}
+
+.card .nft-image .view:hover{
+    opacity: 1;
+    cursor: pointer;
 }
 
 .card .nft-description{
@@ -17,9 +41,15 @@
 }
 
 .card .nft-description h1{
+    display: inline-block;
     color: #FFFFFF;
     font-size: 23px;
-    padding: 20px 0;
+    padding: 25px 0;
+}
+
+.card .nft-description h1:hover{
+    color: #00FFF7;
+    cursor: pointer;
 }
 
 .card .nft-description p{
@@ -71,6 +101,11 @@
 
 .card .author-info span a{
     color: #FFFFFF;
+}
+
+.card .author-info span a:hover{
+    color: #00FFF7;
+    cursor: pointer;
 }
 
 .attribution{
