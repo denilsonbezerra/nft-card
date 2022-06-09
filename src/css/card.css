@@ -33,7 +33,7 @@
 }
 
 .card .nft-description{
-    max-width: fit-content;
+    max-width: 285px;
 }
 
 .card .nft-description h2 a{
